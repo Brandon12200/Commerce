@@ -1,0 +1,31 @@
+{% extends "auctions/layout.html" %}
+
+{% block body %}
+    <h2>Active Listings</h2>
+    <div>
+        <div class="row">
+            {% if listings %}
+                {% for listing in listings %}
+                    <div class="col-md-4 mb-4">
+                        <div class="card">
+                            {% if listing.image %}
+                            <img class="card-img-top card-img-height" src="{{ listing.image }}" alt="{{ listing.title }}" style="height: 300px; object-fit: cover;">
+                            {% endif %}
+                            <div class="card-body">
+                                <h5 class="card-title">{{ listing.title }}</h5>
+                                <p class="card-text">{{ listing.description }}</p>
+                                <p>Current Bid: ${{ listing.current_bid|floatformat:2 }}</p>
+                                <a href="{% url 'view_listing' listing.id %}" class="btn btn-primary">View Listing</a>
+                            </div>
+                        </div>
+                    </div>
+                    {% if forloop.counter|divisibleby:3 and not forloop.last %}
+                        </div><div class="row">
+                    {% endif %}
+                {% endfor %}
+            {% else %}
+                <h3 style="margin:15px;">No listings available.</h3>
+            {% endif %}
+        </div>
+    </div>
+{% endblock %}
