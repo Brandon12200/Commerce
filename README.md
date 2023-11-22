@@ -45,11 +45,11 @@ Includes the following features:
 
 ## Sample Output
 
-![Commerce1](Commerce/Commerce1.png "Commerce Sample Output 1")
+![Commerce1](commerce/Commerce1.png "Commerce Sample Output 1")
 
-![Commerce2](Commerce/Commerce2.png "Commerce Sample Output 2")
+![Commerce2](commerce/Commerce2.png "Commerce Sample Output 2")
 
-![Commerce3](Commerce/Commerce3.png "Commerce Sample Output 3")
+![Commerce3](commerce/Commerce3.png "Commerce Sample Output 3")
 
 ## Usage
 
