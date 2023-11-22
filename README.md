@@ -45,11 +45,11 @@ Includes the following features:
 
 ## Sample Output
 
-![Commerce1](Commerce1.png "Commerce Sample Output 1")
+![Commerce1](Commerce/Commerce1.png "Commerce Sample Output 1")
 
-![Commerce2](Commerce2.png "Commerce Sample Output 2")
+![Commerce2](Commerce/Commerce2.png "Commerce Sample Output 2")
 
-![Commerce3](Commerce3.png "Commerce Sample Output 3")
+![Commerce3](Commerce/Commerce3.png "Commerce Sample Output 3")
 
 ## Usage
 
@@ -65,7 +65,7 @@ pip install django
 To clone the repository, run the following command in your terminal:
 
 ```bash
-git clone https://github.com/brandon12200/commerce.git
+git clone https://github.com/Brandon12200/Commerce.git
 ```
 
 ### 3. Run Application
