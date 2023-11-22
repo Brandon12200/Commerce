@@ -65,7 +65,7 @@ pip install django
 To clone the repository, run the following command in your terminal:
 
 ```bash
-git clone https://github.com/brandon12200/commerce.git
+git clone https://github.com/Brandon12200/Commerce.git
 ```
 
 ### 3. Run Application
