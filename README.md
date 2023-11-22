@@ -11,6 +11,7 @@
 ## Description
 
 An auction application that enables users to list and bid on items.
+Written for CS50W Project 2
 
 Includes the following features:
 
